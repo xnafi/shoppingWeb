@@ -39,8 +39,8 @@ function Navbar() {
                                 </NavLink >
                                  
                                  <ul className="dropdown-menu alas2 text-lg-center" aria-labelledby="navbarDropdownMenuLink">
-                                   <li> <NavLink   className="dropdown-item" to="/womenallnav">Women All Proudcts</NavLink > </li> 
-                                   <li> <NavLink   className="dropdown-item" to="/womennewarrivalnav">Women's New Arriaval</NavLink > </li> 
+                                   <li> <NavLink   className="dropdown-item" to="womenallnav">Women All Proudcts</NavLink > </li> 
+                                   <li> <NavLink   className="dropdown-item" to="womennewarrivalnav">Women's New Arriaval</NavLink > </li> 
                                     <li><NavLink  className="dropdown-item" to="womenbestsellingnav">Women's Best Selling</NavLink ></li>
                                     <li><NavLink  className="dropdown-item" to="womenjeansnav">Women's Jeans</NavLink ></li>
                                     <li><NavLink  className="dropdown-item" to="womenshortsnav">Women's Shorts</NavLink ></li>
