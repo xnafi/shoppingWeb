@@ -3,6 +3,10 @@ import React from "react";
 import Product1 from "../Best Selling/SinglePoduct";
 import Products from "../Best Selling/Products"
 import { useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+AOS.init();
 
 
 
