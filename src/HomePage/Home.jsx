@@ -4,11 +4,15 @@ import "../App.css"
 import { Link, NavLink } from "react-router-dom";
 import BestSelling from "../Best Selling/BestSelling";
 import HomeComponent2 from "./HomeComponent2";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 
 
 
 
 function Home() {
+
     return (
         <>
             <div className="container-fluid">
@@ -40,10 +44,10 @@ function Home() {
 
 
             </div>
-            <div className="container msg rounded-3"  data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom" 
-                    data-aos-offset="100"
-                    data-aos-duration="1000">
+            <div className="container msg rounded-3" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-offset="100"
+                data-aos-duration="1000">
                 <div className="row  justify-content-center" >
                     <div className="col-lg-2 col-auto">
                         <NavLink to="/women" className="btn btn-primary btn-lg btnsm m-4">Shop Woman</NavLink >
